@@ -1,0 +1,55 @@
+
+
+ body{
+    background-color: bisque;
+}
+
+.cadre{
+    vertical-align: middle;
+    display: inline-block;
+    border: 3px solid #000000; 
+    background: url(imgtest.png) no-repeat ;   overflow:hidden; background-size :cover;
+
+}
+
+.img{
+    background: url(placeholder.png) no-repeat  ;
+     background-size : 350px; 
+    height: 500px;
+    width: 500px;
+    /* display:inline-flex;  */
+    /* margin-inline-end: initial; */
+    /* float: left; */
+
+
+}
+
+td {
+    display:  inline-block;
+    border: 1px solid #000000; 
+    height: 50px;
+    width: 50px;
+    margin-top: -3px;
+    
+}
+
+.good{
+    background:rgba(0,200,50,5);
+}
+
+.bad{
+    background:rgba(200,50,50,5);
+}
+
+.mid{
+    background: rgba(252,186,3,5);
+}
+
+h1{
+    display: inline-block;
+    vertical-align: top;
+    /* padding-right:30%; */
+    color:#9b0404;
+    font-family: 'Papyrus';
+    /* background-color: bisque; */
+}
